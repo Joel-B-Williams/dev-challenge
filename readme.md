@@ -8,7 +8,7 @@ Our client, Geoff's Dry Cleaning, is struggling to convert their webpage views i
 
 In this repo, you'll find `desktop.png` that our designer produced- it will be your guide for building the site. Now go build it! 
 
-When you're done building the site, push it to this repo on Github on a separate branch called "part1".
+When you're done building the site, push it to this repo on Github on a separate branch called "yourname-part1".
 
 Tips:
 - You don't need to set up a server or any hosting for the site- just push the raw files up to github so we can take a look at them.
@@ -36,7 +36,7 @@ Tips:
 - You don't need to write any kind of backend system for your app- just give it some data you've hard-coded.
 - Assume for now that all of the websites will have the same style (including colors and fonts). 
 
-Push this part of the challenge to github on a branch called `yourname-part3`. 
+Push this part of the challenge to github on a branch called `yourname-part2`. 
 
 
 ## Part 3: Stretch Challenge (Optional!)
@@ -48,7 +48,7 @@ Tips:
 - If you're using a tool like SCSS, it will be helpful to have access to a variable that represents the color you want to change. 
 - If you figure out how to make the colors dynamic, try to do the same with fonts! With images?
 
-Push this part of the challenge to github on a branch called `yourname-part4`. 
+Push this part of the challenge to github on a branch called `yourname-part3`. 
 
 
 
