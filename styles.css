@@ -77,6 +77,34 @@ nav a:last-of-type {
 	padding-top: 10vh;
 }
 
+#half-border-bottom {
+	border-bottom: solid cyan 2px;
+	width: 140px;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+
+.p-n-d-info {
+	display: inline-block;
+	width: 25vw;
+	padding-left: 6vw;
+}
+
+.p-n-d-info h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.p-n-d-info img {
+	display: block;
+	margin: auto;
+}
+
+.p-n-d-info p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
 /* BUTTONS */
 
 .button {
@@ -89,7 +117,7 @@ nav a:last-of-type {
 
 .button p {
 	font-size: 1.75em;
-	width: 15vw;
+	width: 200px;
 	padding-top: 2vh;
 }
 
@@ -103,4 +131,9 @@ nav a:last-of-type {
 
 .clear-button {
 	border: solid black 2px;
+}
+
+.p-n-d .button p {
+	color: white;
+	padding-left: 50px;
 }
