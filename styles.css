@@ -2,6 +2,8 @@ body {
 	background-color: grey;
 }
 
+/* HEADER */
+
 header {
 	background-color: white;
 	height: 13vh;
@@ -34,6 +36,8 @@ nav a:last-of-type {
 	margin-top: 2vh;
 }
 
+/* Intro section */
+
 .intro {
 	height: 100vh;
 	width: 100vw;
@@ -43,9 +47,10 @@ nav a:last-of-type {
 .intro h1 {
 	text-align: center;
 	font-size: 5em;
-	padding-top: 30vh;
+	padding-top: 20vh;
 	color: cyan;
 	text-shadow: 2px 2px grey;
+	margin-top: 0px;
 	/*Font???*/
 }
 
@@ -57,8 +62,25 @@ nav a:last-of-type {
 	margin: auto;
 }
 
+/* Pickup & Delivery section */
+
+.p-n-d {
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+}
+
+.p-n-d h2 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 0px;
+	padding-top: 10vh;
+}
+
+/* BUTTONS */
+
 .button {
-	width: 20vw;
+	width: 300px;
 	height: 9vh;
 	text-align: center;
 	margin: auto;
@@ -75,7 +97,7 @@ nav a:last-of-type {
 	border-radius: 50px;
 }
 
-.pickup-button {
+.filled-button {
 	background-color: cyan;
 }
 
