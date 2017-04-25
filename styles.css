@@ -77,13 +77,6 @@ nav a:last-of-type {
 	padding-top: 10vh;
 }
 
-#half-border-bottom {
-	border-bottom: solid cyan 2px;
-	width: 140px;
-	margin: auto;
-	margin-bottom: 5vh;
-}
-
 .p-n-d-info {
 	display: inline-block;
 	width: 25vw;
@@ -103,6 +96,43 @@ nav a:last-of-type {
 .p-n-d-info p {
 	text-align: center;
 	font-size: 1.5em;
+}
+
+/*OUR SERVICES*/
+
+.our-services {
+	width: 100vw;
+	height: 100vh;
+	background-color: cyan;
+}
+
+.our-services h2 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 0px;
+	padding-top: 8vh;
+}
+
+.service-info {
+	display: inline-block;
+	width: 40vw;
+	padding-left: 5vw;
+}
+
+.service-info img {
+	float: left;
+	padding-right: 10px;
+	padding-left: 30px;
+}
+
+.service-info h3 {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.service-info p {
+	font-size: 1.5em;
+	width: 35vw;
 }
 
 /* BUTTONS */
@@ -136,4 +166,23 @@ nav a:last-of-type {
 .p-n-d .button p {
 	color: white;
 	padding-left: 50px;
+}
+
+.our-services .button p {
+	padding-left: 50px;
+	position: relative;
+	bottom: 25px;
+}
+
+/*EXTRA STYLING*/
+
+.half-border-bottom {
+	border-bottom: solid cyan 2px;
+	width: 140px;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+
+.our-services .half-border-bottom {
+	border-bottom: solid white 2px;
 }
