@@ -37,6 +37,47 @@ nav a:last-of-type {
 	border-right: none;
 }
 
+footer {
+	background-color: #222326;
+	width: 100 vw;
+	height: 20vh;
+}
+
+footer a {
+	color: #d6d6d6;
+	text-decoration: none;
+}
+
+footer p:first-child {
+	padding-top: 5vh;
+}
+
+footer section {
+	display: inline-block;
+	color: #d6d6d6;
+	width: 30vw;
+	text-indent: 5vw;
+	font-size: 1.25em;
+}
+
+footer section:last-of-type {
+	text-align: right;
+}
+
+footer section:nth-child(2) {
+	text-indent: 10vw;
+}
+
+footer section:nth-child(2) p:first-child {
+	font-size: .7em;
+	margin-bottom: 0px;
+}
+
+footer section:nth-child(2) p:last-child {
+	color: cyan;
+	margin-top: 0px;
+}
+
 #logo {
 	max-height: 60%;
 	max-width: 30%;
@@ -195,13 +236,16 @@ nav a:last-of-type {
 	width: 100vw;
 	height: 100vh;
 	background-color: cyan;
+	margin-bottom: 0;
 }
 
+/*map not to scale-side borders instead?*/
 .service-area img {
 	padding-top: 9vh;
 	width: 100vw;
-	height: 65.2vh;
+	height: 65.5vh;
 }
+
 
 /* BUTTONS */
 
