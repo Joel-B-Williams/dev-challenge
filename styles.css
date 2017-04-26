@@ -1,5 +1,7 @@
 body {
 	background-color: grey;
+	padding: 0;
+	margin: 0;
 }
 
 /* HEADER */
@@ -43,7 +45,7 @@ nav a:last-of-type {
 
 footer {
 	background-color: #222326;
-	width: 100 vw;
+	width: 100vw;
 	height: 20vh;
 }
 
