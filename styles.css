@@ -10,6 +10,10 @@ header {
 	width: 100vw;
 }
 
+header img {
+	padding-left: 5vw;
+}
+
 h2 {
 	text-align: center;
 	font-size: 2.5em;
@@ -234,16 +238,23 @@ footer section:nth-child(2) p:last-child {
 
 .service-area {
 	width: 100vw;
-	height: 100vh;
+	height: 89vh;
 	background-color: cyan;
-	margin-bottom: 0;
+	
+}
+
+.img-container {
+	/*height: 60vh;*/
+	background-color: white;
+	/*margin-top: 20vh;*/
+	/*margin-bottom: 10vh;*/
 }
 
 /*map not to scale-side borders instead?*/
 .service-area img {
-	padding-top: 9vh;
-	width: 100vw;
-	height: 65.5vh;
+	/*padding-top: 10.8vh;*/
+	display: block;
+	margin: auto;
 }
 
 
