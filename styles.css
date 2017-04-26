@@ -10,6 +10,13 @@ header {
 	width: 100vw;
 }
 
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 0px;
+	padding-top: 10vh;
+}
+
 nav {
 	float: right;
 	padding-top: 6vh;
@@ -70,12 +77,12 @@ nav a:last-of-type {
 	background-color: white;
 }
 
-.p-n-d h2 {
+/*.p-n-d h2 {
 	text-align: center;
 	font-size: 2.5em;
 	margin-top: 0px;
 	padding-top: 10vh;
-}
+}*/
 
 .p-n-d-info {
 	display: inline-block;
@@ -106,12 +113,12 @@ nav a:last-of-type {
 	background-color: cyan;
 }
 
-.our-services h2 {
+/*.our-services h2 {
 	text-align: center;
 	font-size: 2.5em;
 	margin-top: 0px;
 	padding-top: 8vh;
-}
+}*/
 
 .service-info {
 	display: inline-block;
@@ -133,6 +140,53 @@ nav a:last-of-type {
 .service-info p {
 	font-size: 1.5em;
 	width: 35vw;
+}
+
+/*DOWNLOAD AREA*/
+
+.download {
+	height: 115vh;
+	width: 100vw;
+	background-color: white;
+}
+
+.download-info {
+	float: left;
+	width: 40vw;
+	padding-left: 15vw;
+}
+
+.download-info input[type=text] {
+	height: 6vh;
+	width: 20vw;
+	border:solid black 1px;
+	font-size: 1.25em;
+	text-indent: 25px;
+}
+
+.download-info input[type=submit] {
+	height: 6.6vh;
+	width: 18vw;
+	border: solid black 1px;
+	background-color: cyan;
+	font-size: 1.25em;
+	float: right;
+}
+
+.phone-img {
+	float: right;
+	margin-right: 10vw;
+	/*adjust vertical*/
+	position: relative;
+	bottom: 10vh;
+}
+
+.download h3 {
+	font-size: 2.5em;
+}
+
+.download p {
+	font-size: 1.5em;
 }
 
 /* BUTTONS */
