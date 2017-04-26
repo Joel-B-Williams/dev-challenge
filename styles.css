@@ -189,6 +189,20 @@ nav a:last-of-type {
 	font-size: 1.5em;
 }
 
+/*SERVICE AREA*/
+
+.service-area {
+	width: 100vw;
+	height: 100vh;
+	background-color: cyan;
+}
+
+.service-area img {
+	padding-top: 9vh;
+	width: 100vw;
+	height: 65.2vh;
+}
+
 /* BUTTONS */
 
 .button {
@@ -238,5 +252,9 @@ nav a:last-of-type {
 }
 
 .our-services .half-border-bottom {
+	border-bottom: solid white 2px;
+}
+
+.service-area .half-border-bottom {
 	border-bottom: solid white 2px;
 }
