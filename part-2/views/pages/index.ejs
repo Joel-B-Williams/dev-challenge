@@ -13,6 +13,11 @@
 
 	<section>
 		<h2> Reasons I'm not a terrible guy... </h2>
+		<ul>
+			<% reasons.forEach(function(reason) { %>
+				<li><%=reason.reason%></li>
+			<% }); %>
+		</ul>
 	</section>
 
 	<footer>

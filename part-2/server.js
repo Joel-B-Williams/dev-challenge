@@ -10,7 +10,18 @@ app.set('view engine', 'ejs');
 
 // index page 
 app.get('/', function(req, res) {
-    res.render('pages/index');
+
+	var reasons = [
+		{reason: "I wear great T-shirts"},
+		{reason: "I have many multi-sided dice"},
+		{reason: "I guess I also did this templating thing"}
+	];
+
+    res.render('pages/index', {
+    	reasons: reasons,
+    	test: test
+    });
+
 });
 
 // about page 
